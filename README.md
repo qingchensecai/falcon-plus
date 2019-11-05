@@ -69,6 +69,7 @@ mysql -h 127.0.0.1 -u root -p < 5_alarms-db-schema.sql
 
 ```
 cd $GOPATH/src/github.com/open-falcon/falcon-plus/
+go get github.com/open-falcon/rrdlite
 
 # make all modules
 make all
